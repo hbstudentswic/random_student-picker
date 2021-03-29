@@ -1,1 +1,55 @@
+form {
+  border: solid thin black;
+  margin: 0 auto;
+  width: 480px;
+}
+button {
+  background-color: #ab9863;
+  border: none;
+  border-radius: 40px;
+  color: whitesmoke;
+  margin-top: 8px;
+  padding: 8px;
+}
 
+div {
+  gap: 8px; /* vw is veiwport width */
+  width: 100vw;
+}
+
+/* Utility Classes */
+.button {
+  background-color: #ab9863;
+  border: none;
+  border-radius: 40px;
+  color: whitesmoke;
+  margin-top: 8px;
+  padding: 8px;
+}
+
+.button--reset {
+  /* '--' conveys that this is a modifier class intended for use with '.button' */
+  background-color: red;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--align-center {
+  align-items: center;
+}
+
+.flex--justify-center {
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+/* Source: CSS Tricks */
+.screen-reader-text {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
