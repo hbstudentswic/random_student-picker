@@ -1,7 +1,7 @@
 const form = document.querySelector("form");
 const students = [];
 
-function getRandomInt(min, max) {
+function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1) + min); // The maximum is exclusive and the minimum is inclusive
@@ -18,5 +18,5 @@ form.addEventListener("submit", (event) => {
 });
 
 document.querySelector(".button--jumbo").addEventListener("click", () => {
-  console.log("hello");
+  console.log(students[getRandomIntInclusive(0, students.length - 1)]);
 });
