@@ -21,6 +21,21 @@ button {
   padding: 8px;
 }
 
+.button--jumbo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 10vh;
+  text-transform: uppercase;
+  transition: all 0.25s;
+  width: 20vw;
+}
+
+.button--jumbo:hover,
+.button--jumbo:focus {
+  border-radius: 32px;
+  box-shadow: 0 0 10px;
+}
+
 div {
   gap: 8px; /* vw is veiwport width */
   width: 100vw;
