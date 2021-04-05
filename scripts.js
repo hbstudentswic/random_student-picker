@@ -17,6 +17,6 @@ form.addEventListener("submit", (event) => {
   students.push(newStudent);
 });
 
-document.querySelector(".button--jumbo");.addEventListener('click', () => {
-  console.log('hello')
-})
+document.querySelector(".button--jumbo").addEventListener("click", () => {
+  console.log("hello");
+});
