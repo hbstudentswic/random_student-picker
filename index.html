@@ -16,11 +16,11 @@
   </head>
   <body>
     <!-- TODO: Update 'h1' -->
-    <h1>Random Student Picker</h1>
+    <h1 class="text-center">Random Student Picker</h1>
 
-    <div class="flex flex--column flex--align-center">
-      <form class="flex">
-        <div>
+    <div>
+      <form class="flex flex--column">
+        <div class="flex">
           <label for="fname" class="screen-reader-text">First Name</label
           ><input type="text" id="fname" name="fname" />
         </div>
@@ -29,11 +29,17 @@
           <label for="lname" class="screen-reader-text">Last Name</label
           ><input type="text" id="lname" name="lname" />
         </div>
+
         <button type="submit" class="button">Add Student!</button>
+
         <button type="submit" class="button--reset">Reset</button>
       </form>
-      <button class="button button--jumbo">Pick a Student!</button>
+
+      <div class="flex flex--justify-center mt-medium">
+        <button class="button button--jumbo">Pick a Student!</button>
+      </div>
     </div>
+
     <script src="./scripts.js" type="module"></script>
   </body>
 </html>

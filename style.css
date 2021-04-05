@@ -4,6 +4,7 @@
   --large-gap: 16px;
   --primary-color: blue;
 }
+
 form {
   border: solid thin black;
   border-radius: 4px;
@@ -51,6 +52,10 @@ div {
   padding: 8px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .button--reset {
   /* '--' conveys that this is a modifier class intended for use with '.button' */
   background-color: red;
@@ -70,6 +75,10 @@ div {
 
 .flex--column {
   flex-direction: column;
+}
+
+.mt-medium {
+  margin-top: var(--medium-gap);
 }
 
 /* Source: CSS Tricks */
