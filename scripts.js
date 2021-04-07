@@ -28,3 +28,9 @@ document.querySelector(".button--jumbo").addEventListener("click", () => {
   // Log the first and last name of the student using template literals
   p.innerText = `${randomName.fname} ${randomName.lname}`;
 });
+/* This half controls the button that increases the medium gap in our custom propery, :root from our css. */
+const root = document.querySelector(":root");
+
+document.querySelector("#test").addEventListener("click", () => {
+  root.style.setProperty("--medium-gap", "100px");
+});
